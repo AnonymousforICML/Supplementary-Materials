@@ -13,12 +13,10 @@ c_6 & c_7 & c_8 & c_7 \omega & b_y+a_y \omega \eta
 \end{array}\right]$$
 
 with coefficients defined as:
-$$
-& c_1=\frac{30(m+4) L^2 w_1+2 w_1}{w_2}, \quad c_2=\frac{96 w_1 w_2 L^2+16(m+4) w_1^2}{w_2^2} \\
+$$ & c_1=\frac{30(m+4) L^2 w_1+2 w_1}{w_2}, \quad c_2=\frac{96 w_1 w_2 L^2+16(m+4) w_1^2}{w_2^2} \\
 & c_3=\frac{20 n L^2(m+4) w_1}{w_2}, \quad c_4=\frac{64 w_1^2(m+4)+96 w_1 w_2}{w_2^2} L^2 \\
 & c_5=\frac{L}{4 n}\left(\frac{(4 m+5)}{\sqrt{m+4}}+\frac{(4 m+4) L}{\mu}\right) \\
-& c_6=\frac{15(m+4) L^2+1}{6} a_y, \quad c_7=\frac{\left(w_1+w_2\right) a_y}{w_2}, \quad c_8=\frac{5 n L^2(m+4) a_y}{3}
-$$
+& c_6=\frac{15(m+4) L^2+1}{6} a_y, \quad c_7=\frac{\left(w_1+w_2\right) a_y}{w_2}, \quad c_8=\frac{5 n L^2(m+4) a_y}{3} $$
 where $w_1=1+\rho^2$, $w_2=1-\rho^2$, $\rho \in (0,1)$, and all parameters $\mu$, $a_x$, $a_y$, $b_x$, $b_y$, $\omega$, $L$, $m$, $n$ are positive.
 
 ## Proof Strategy
@@ -73,13 +71,11 @@ $$\eta < \frac{\frac{3\mu w_2^2}{8}(1-b_x)(1-b_y)}{\left[\left(\frac{2w_1c_8}{w_
 
 Combining all constraints, the spectral radius $\|G(\eta)\| < 1$ when:
 
-$$
-\eta < \min\limits \left\{
+$$\eta < \min\limits \left\{
 \sqrt{\frac{w_2}{2c_2}},\,
 \sqrt{\frac{1-b_x}{2a_x\omega}},\,
 \frac{1-b_y}{a_y\omega},\,
 \frac{\frac{3\mu w_2^2}{8} (1-b_x)(1-b_y)}
 {\left( \frac{2w_1c_8}{w_2} - 4w_1\omega c_7 + \frac{3\mu a_y w_2^2\omega}{8} \right) (1-b_x) + 8w_1\omega a_x (1-b_y)}
-\right\}
-$$
+\right\}$$
 This establishes the upper bound on the step size $\eta$ that guarantees convergence of the iterative scheme.
